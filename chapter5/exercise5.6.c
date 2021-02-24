@@ -4,7 +4,7 @@ char line[10];
 int minute; //integer of minute
 
 int main(void) {
-  printf("Enter minutes(s): "); //tells the user to input minutes
+  printf("Enter minute(s): "); //tells the user to input minutes
   fgets(line, sizeof(line),stdin);
   sscanf(line, "%d", &minute); //analysis if minutes
 
