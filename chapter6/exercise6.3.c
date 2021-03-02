@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 char line[80];
 int grade; //integer of grade
